@@ -1,7 +1,7 @@
 # expo-image-picker-example
 
 
-`
+```
 let requestPermission = await ImagePicker.requestCameraPermissionsAsync();
 
 if (requestPermission.granted === false) {
@@ -24,4 +24,4 @@ if (!result.canceled) {
 
     console.log(filename);
 }
-`
+```
